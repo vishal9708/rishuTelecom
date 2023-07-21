@@ -1,6 +1,6 @@
 import React from "react";
 import Avatar from "@mui/material/Avatar";
-import { AiOutlineInstagram } from "react-icons/ai";
+import { AiFillPhone, AiOutlineInstagram, AiOutlinePhone} from "react-icons/ai";
 import { BsDiscord, BsLinkedin } from "react-icons/bs";
 import "./About.css";
 
@@ -19,36 +19,34 @@ const About = () => {
             />
             <h2>
               {" "}
-              <b> Gaurav Gupta </b>{" "}
+              <b> Rishab Soni </b>{" "}
             </h2>
           </div>
         </div>
 
         <div className="about-info-block">
           <div className="info-block">
-            This is my first Full Stack Website created by using MERN Stack.{" "}
-            <br />
-            Created on - 8th July 2022
+            This is my first online presence over this webiste, please let me know if any suggestion you have.
           </div>
           <div className="follow-links-block">
-            <a
-              href="https://instagram.com/rishu_telecom_/"
-              className="social-media-btn mb-2 text-fuchsia-600"
-            >
-              <AiOutlineInstagram />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/gaurav-gupta-b14482231/"
-              className="social-media-btn mb-2 text-sky-500"
-            >
-              <BsLinkedin />
-            </a>
-            <a
-              href="https://discordapp.com/users/Gaurav%20Gupta#2647"
-              className="social-media-btn mb-2 text-blue-700"
-            >
-              <BsDiscord />
-            </a>
+          <a
+            href="https://www.instagram.com/rishu_telecom_/"
+            className="social-media-btn mb-2 text-fuchsia-600"
+          >
+            <AiOutlineInstagram />
+          </a>
+          <a
+            href="tel:+919555752631"
+            className="social-media-btn mb-2 text-sky-500"
+          >
+            <AiFillPhone />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/vishal-kumar-10b23519b/"
+            className="social-media-btn mb-2 text-blue-700"
+          >
+            <BsLinkedin />
+          </a>
           </div>
         </div>
       </div>
